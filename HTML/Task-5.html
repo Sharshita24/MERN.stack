@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 HTML</title>
+    <style>
+        body {
+            font-size: large;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%; 
+            margin: 0 auto;
+            border: 2px solid #000; 
+        }
+
+        th, td {
+            border: 2px solid #000; 
+            padding: 10px;
+        }
+
+        th {
+            background-color: #f2f2f2; 
+        }
+        .right {
+            text-align: right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Task 5</h1>
+    <form>
+        <center>
+            <table>
+                <tr>
+                    <td><label for="fn">First Name:</label></td>
+                    <td><input type="text" name="fn" placeholder="Enter your First Name"/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="fn">Last Name:</label></td>
+                    <td><input type="text" name="fn" placeholder="Enter your Last Name"/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="un">Email:</label></td>
+                    <td><input type="email" name="un" placeholder="Enter your Email"/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pwd">Password:</label><br></td>
+                    <td><input type="password" id="pwd" name="pwd" placeholder="Enter your password"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pwd">Re Password:</label><br></td>
+                    <td><input type="password" id="pwd" name="pwd" placeholder="Re enter your password"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="ag">Age:</label></td>
+                    <td><input type="number" name="ag" placeholder="Enter your age"/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gen">Gender:</label></td>
+                    <td><input type="radio" name="Gender" value="Male">
+                        <label for="Gender">Male</label>
+                        <input type="radio" name="Gender" value="Female">
+                        <label for="Gender">Female</label>  
+                </tr>
+
+                <tr>
+                    <td><label for="ad">Address:</label></td>
+                    <td><textarea></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="st">State:</label></td>
+                    <td><input type="text" name="ad" placeholder="Enter your State"/></td>
+                </tr>
+
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select name = 'Choose youur Country'>
+                            <option>India</option>
+                            <option>Others</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Languages:</label></td>
+                       <td> <input type="checkbox" name = "language" value="English">
+                        <label>English</label>
+                        <input type="checkbox" name = "language" value="Kannada">
+                        <label>Kannada</label>
+                        <input type="checkbox" name = "language" value="Hindi">
+                        <label>Hindi</label>
+                        <input type="checkbox" name = "language" value="Telugu">
+                        <label>Telugu</label>
+                        </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="checkbox" name="declaration" value="true">
+                        <label for="declaration">I hereby declare all the given details are true</label></td></tr>
+                    <div class = "tt" id="right">
+                    <tr align="left"><td colspan="2">Log in to <a href="https://ethnus.com">Ethnus</a>Website</td>
+                    </tr>
+                    </div>
+            </table>
+        </center>
+    </form>
+    <center>
+        <input type="button" value="Register" />
+    </center>
+</body>
+</html>
