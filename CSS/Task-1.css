@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 CSS</title>
+    <style>
+        table {
+            margin: 0 auto;
+            width: 50%;
+            border-collapse: separate;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid black;
+            border-spacing: 0; 
+        }
 
+        table, th, td {
+            border-radius: 10px;
+            border: 1px solid black; 
+        }
+
+        body {
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task1</h1>
+    <table>
+        <colgroup>
+            <col span="3" style="background-color:lightblue">
+        </colgroup>
+        <caption></caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td style="width: 100px;">Jill</td>
+            <td style="width: 150px;">Smith</td>
+            <td style="width: 100px;">50</td>
+        </tr>
+        <tr>
+            <td style="width: 100px;">Eve</td>
+            <td style="width: 150px;">Jackson</td>
+            <td style="width: 100px;">94</td>
+        </tr>
+        <tr>
+            <td style="width: 100px;">John</td>
+            <td style="width: 150px;">Doe</td>
+            <td style="width: 100px;">80</td>
+        </tr>
+    </table>
+</body>
+</html>
